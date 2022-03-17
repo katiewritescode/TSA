@@ -136,10 +136,17 @@ box-sizing: inherit;
          background-color: rgb(180, 122, 228);
          color: rgb(255, 255, 255);
        }
-.cart-section {
+.firstcart-section {
   padding: 50px;
   text-align: center;
   background-color: rgb(127, 196, 118);
+  color: rgb(255, 255, 255);
+}
+
+.secondcart-section {
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(187, 216, 107);
   color: rgb(255, 255, 255);
 }
 
@@ -169,11 +176,23 @@ box-sizing: inherit;
          background-color: rgb(111, 194, 214);
          text-align: center;
          cursor: pointer;
-         width: 100%;
+         width: 50%;
        }
+
+  .btn {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: rgb(111, 194, 214);
+        text-align: center;
+        cursor: pointer;
+        width: 10%;
+  }
        
-.button:hover {
-         background-color: #555;
+.button:hover,.btn:hover {
+         background-color: rgb(207, 90, 198);
        }
 
 div {
